@@ -1,0 +1,56 @@
+/* Utility made classes use any where in the code */
+.red-border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.bg-gray{
+    background-color: #121212;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2e2e2e; /* color of the tracking area */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #6b6b6b; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid #2e2e2e; /* creates padding around scroll thumb */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: #6b6b6b #2e2e2e; /* thumb and track color */
+  }
+  
